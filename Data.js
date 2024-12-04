@@ -1,14 +1,13 @@
 const datasource = [
-    {data:[
-            {key: 'a'},
-            {key: 'e'},
+    {
+        data: [
+            { key: 'Cheeseburger', calories: 303 },
+            { key: 'Fries', calories: 312 },
         ],
-        title:"Vowels", bgcolor:"skyblue"},
-    {data:[
-            {key: 'b'},
-            {key: 'c'},
-            {key: 'd'},
-        ],
-        title:"Consonants", bgcolor:"khaki"}
+        title: "Food Items",
+        bgcolor: "lightgray",
+    },
 ];
-export {datasource};
+
+export { datasource };
+
